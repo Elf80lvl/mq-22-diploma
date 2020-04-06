@@ -135,6 +135,111 @@ body {
 }
 
 
+
+
+/*--------------------------section-athlets-----------------------------*/
+.athlets-picblock {
+  height: 235px;
+  width: 100%;
+}
+
+.athlets-picblock-pic {
+  margin-left: auto;
+  margin-right: auto;
+  transform: translateY(10px);
+  background-image: url('../images/footballer_192.png');
+  background-repeat: no-repeat;
+  background-size: contain;
+  height: 281px;
+  width: 192px;
+}
+
+.section-block {
+  background-color: #fafafa;
+  padding-top: 80px;
+  padding-bottom: 50px;
+
+}
+
+/* .athlets {
+  position: relative;
+  transform: translateY(-50px);
+  z-index: -1;
+} */
+
+.section-h2 {
+  color: #e7e7e7;
+  font-size: 60px;
+  text-transform: uppercase;
+  margin-top: 5px;
+  margin-left: 20px;
+}
+
+.section-article {
+  display: flex;
+  margin-left: 20px;
+}
+
+.collaboration {
+  background-color: #f5f4f9;
+}
+
+.growth {
+  background-color: #5e42b0;
+}
+
+.section-article-number {
+  font-family: 'open sans bold';
+  font-size: 14px;
+  color: #000000;
+  transform: translateY(3px);
+}
+
+.section-article-number::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: #5e42b0;
+}
+
+.section-article-number-white {
+  font-family: 'open sans bold';
+  font-size: 14px;
+  color: #000000;
+  transform: translateY(3px);
+}
+
+.section-article-number-white::after {
+  content: '';
+  display: block;
+  width: 100%;
+  height: 4px;
+  background-color: white;
+}
+
+.section-article-name {
+  font-family: 'open sans bold';
+  text-transform: uppercase;
+  font-size: 23px;
+  color: #c1c1c1;
+  margin-left: 8px;
+}
+
+.section-article-content-text {
+  margin-top: 30px;
+  margin-left: 20px;
+  padding-right: 20px;
+  font-size: 15px;
+  font-family: 'open sans bold';
+}
+
+.white {
+  color: white;
+}
+
+
+
 @media (min-width: 641px) {
   .header{
     background-image: url('../images/football_1280.jpg');
@@ -170,6 +275,10 @@ body {
     margin-left: 20%;
   }
 
+  .buttons-app {
+    margin-top: 300px;
+  }
+
   .button-get-the-app {
     padding-top: 25px;
     padding-bottom: 25px;
@@ -183,6 +292,73 @@ body {
   .download-text {
     font-size: 14px;
   }
+
+  /*--------------------------section-athlets-----------------------------*/
+  .section-article {
+    margin-left: 0;
+  }
+
+  .section-h2 {
+    margin-left: 38%;
+    margin-top: 70px;
+    font-size: 80px;
+  }
+
+  .section-block {
+    padding-top: 40px;
+    padding-bottom: 40px;
+  }
+
+  .connection {
+    background-color: #fff;
+  }
+
+  .section-article-name {
+    font-size: 32px;
+  }
+
+  .section-article-number {
+    margin-left: 38%;
+    font-size: 18px;
+    transform: translateY(5px);
+  }
+
+  .section-article-number-white {
+    margin-left: 38%;
+    font-size: 18px;
+  }
+
+  .section-article-content {
+    margin-left: 38%;
+  }
+
+  .section-article-content-text {
+    margin-left: 0;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  .athlets-picblock {
+    margin-left: 38%;
+    height: 0px;
+    width: 0px;
+    position: relative;
+  }
+
+  .athlets-picblock-pic {
+    position: absolute;
+    /* transform: translate(-300px, 0px); */
+    top: -80px;
+    left: -450px;
+
+    background-image: url('../images/footballer_566.png');
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 699px;
+    width: 497px;
+  }
+
+
 }
 
 
@@ -194,6 +370,7 @@ body {
 @media (min-width: 961px) {
   .header{
     background-image: url('../images/football_1920.jpg');
+    padding-bottom: 110px;
   }
 
   .surface-logo-text {
@@ -239,6 +416,53 @@ body {
   .download-text {
     font-size: 14px;
   }
+
+
+
+  /*--------------------------section-athlets-----------------------------*/
+  .slogan, .slogan-two {
+    line-height: 100px;
+  }
+
+  .athlets-picblock {
+    margin-left: 52%;
+  }
+
+  .athlets-picblock-pic {
+    top: -200px;
+    left: -620px;
+    width: 566px;
+    height: 908px;
+  }
+
+  .section-h2 {
+    margin-left: 52%;
+    margin-top: 100px;
+    margin-bottom: 10px;
+  }
+
+  .section-article-number {
+    margin-left: 52%;
+    transform: translateY(8px);
+  }
+
+  .section-article-number-white {
+    margin-left: 52%;
+    transform: translateY(8px);
+  }
+
+  .section-article-name {
+    font-size: 36px;
+  }
+
+  .section-article-content {
+    margin-left: 52%;
+  }
+
+  .section-article-content-text {
+    font-size: 20px;
+  }
+  
 
 }
 
