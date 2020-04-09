@@ -307,6 +307,7 @@ header::after {
 .img-content {
  display: block;
  width: 100%;
+ object-fit: cover;
 }
 
 .picture-holder {
@@ -668,16 +669,7 @@ footer::after {
 	 margin-top: 50px;
  }
 
- 
-
-
-
 }
-
-
-
-
-
 
 
 @media (min-width: 961px) {
@@ -938,9 +930,13 @@ footer::after {
 	 .surface-logo-text-footer {
 		 margin-top: 260px;
 	 }
-	   
+	    
+}
 
-  
-
+@media (min-width: 961px) and (max-width: 1199px) {
+	.section-h3 {
+		font-size: 50px;
+		line-height: 50px;
+	}
 }
 
