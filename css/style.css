@@ -585,7 +585,7 @@ footer::after {
   }
 
 
-  /*-----------------players 641----------------*/
+	/*-----------------players 641----------------*/
   .players-m {
    margin-left: 30px;
   }
@@ -845,6 +845,7 @@ footer::after {
    /*-------------------------be active 961--------------------------*/
    .be-active {
 		display: flex;
+		align-items: stretch;
 	 }
 	 
 	 .flex-reverse {
@@ -856,15 +857,23 @@ footer::after {
     width: 50%;
 	 }
 
-
-
    .be-active-content {
-		 box-sizing: border-box;
+		 display: flex;
+		 flex-direction: column;
+		 align-self: center;
+		box-sizing: border-box;
 		width: 50%;
-		padding-left: 7%;
-		padding-right: 7%;
+		padding-left: 10%; /*7*/
+		padding-right: 9%; /*5*/
 		padding-bottom: 0;
-   }
+	 }
+	 
+	 .section-h3 {
+		margin-top: 0;
+		margin-bottom: 0;
+		margin-left: 0px;
+		line-height: 70px;
+	}
 
    .square {
 		 width: 170px;
@@ -872,18 +881,15 @@ footer::after {
     left: auto;
     right: -85px;
 		bottom: auto;
-		top: 210px;
+		top: 30%;
 	 }
 
-	 .section-h3 {
-		 margin-top: 30%;
-		 margin-bottom: 0;
-		 margin-left: 0px;
-	 }
+
 
 	 .text-bigger {
-		 margin-top: 15%;
+		 margin-top: 10%;
 		 font-size: 24px;
+		 padding: 0;
 	 }
 
 
