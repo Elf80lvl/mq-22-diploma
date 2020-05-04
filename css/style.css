@@ -1,16 +1,3 @@
-/* @font-face {
-  font-family: 'open sans regular';
-  src: url('../fonts/OpenSans-Regular.woff'), url('../fonts/OpenSans-Regular.woff2'), url('../fonts/OpenSans-Regular.ttf');
-  font-weight: 400;
-  font-style: normal;
-}
-
-@font-face {
-  font-family: 'open sans bold';
-  src: url('../fonts/OpenSans-Bold.woff'), url('../fonts/OpenSans-Bold.woff2'), url('../fonts/OpenSans-Bold.ttf');
-  font-weight: 800;
-} */
-
 @font-face {
   font-family: 'Open Sans';
   src: url('../fonts/OpenSans-Regular.woff'), url('../fonts/OpenSans-Regular.woff2'), url('../fonts/OpenSans-Regular.ttf');
@@ -29,11 +16,6 @@
   margin: 0;
 }
 
-/* html, body {
-  overflow-x: hidden;
-} */
-
-
 body {
   font-family: 'Open Sans', arial, sans-serif;
 }
@@ -47,11 +29,6 @@ header {
   background-color: #000000;
   text-align: center;
   padding: 33px 15px 83px 15px;
-
-  /* padding-top: 33px;
-  padding-left: 15px;
-  padding-right: 15px;
-  padding-bottom: 83px; */
 }
 
 header::after {
@@ -84,7 +61,6 @@ header::after {
   width: 280px;
   margin-left: auto;
   margin-right: auto;
-  font-family: 'Open Sans';
   text-transform: uppercase;
   text-align: left;
 }
@@ -132,8 +108,6 @@ header::after {
   width: 25px;
   height: 25px;
   background-size: contain;
-  /* margin-right: 5px;
-  margin-left: 30%; */
 }
 
 .visually-hidden {
@@ -161,8 +135,7 @@ header::after {
 }
 
 .icon-text-bold {
-  font-family: 'Open Sans';
-  font-weight: 800;
+  font-weight: 700;
 }
 
 /*--------------------------section-athlets-----------------------------*/
@@ -187,14 +160,7 @@ header::after {
   background-color: #fafafa;
 }
 
-/* .athlets {
-  position: relative;
-  transform: translateY(-50px);
-  z-index: -1;
-} */
-
 .section-h2 {
-  font-family: 'Open Sans';
   font-weight: bold;
   color: #e7e7e7;
   font-size: 50px;
@@ -239,12 +205,10 @@ header::after {
 }
 
 .section-article-number {
-  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   color: #000000;
   padding-top: 3px;
-  /* transform: translateY(3px); */
 }
 
 .section-article-number::after {
@@ -256,12 +220,10 @@ header::after {
 }
 
 .section-article-number-white {
-  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   color: #000000;
   padding-top: 3px;
-  /* transform: translateY(3px); */
 }
 
 .section-article-number-white::after {
@@ -273,12 +235,10 @@ header::after {
 }
 
 .section-article-number-purple {
-  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
   color: #8765dd;
   padding-top: 3px;
-  /* transform: translateY(3px); */
 }
 
 .section-article-number-purple::after {
@@ -290,7 +250,6 @@ header::after {
 }
 
 .section-article-name {
-  font-family: 'Open Sans';
   font-weight: bold;
   text-transform: uppercase;
   font-size: 23px;
@@ -304,7 +263,6 @@ header::after {
   margin-left: 20px;
   padding-right: 20px;
   font-size: 15px;
-  font-family: 'Open Sans';
   line-height: 19px;
   letter-spacing: 0.04em;
 }
@@ -349,7 +307,6 @@ header::after {
 
 .square-number {
   color: white;
-  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 14px;
 }
@@ -402,11 +359,6 @@ footer::after {
   position: relative;
   z-index: 2;
   padding: 100px 20px 10px 20px;
-
-  /* padding-top: 100px;
-  padding-bottom: 10px;
-  padding-left: 20px;
-  padding-right: 20px; */
 }
 
 .footer-surface-logo {
@@ -437,7 +389,6 @@ footer::after {
 }
 
 .download-app {
-  font-family: 'Open Sans';
   font-weight: bold;
   font-size: 32px;
   letter-spacing: 0.040em;
@@ -574,7 +525,6 @@ footer::after {
     margin-left: 38%;
     font-size: 18px;
     padding-top: 7px;
-    /* transform: translateY(5px); */
   }
 
   .section-article-number-white {
@@ -602,7 +552,6 @@ footer::after {
 
   .athlets-picblock-pic {
     position: absolute;
-    /* transform: translate(-300px, 0px); */
     top: -80px;
     left: -465px;
     background-image: url('../images/footballer_566.png');
@@ -616,6 +565,7 @@ footer::after {
   /*-----------------players 641----------------*/
   .players {
     overflow-x: hidden;
+    position: relative;
   }
 
   .players-m {
@@ -630,7 +580,6 @@ footer::after {
     height: 0px;
     width: 100%;
     position: relative;
-    /* overflow-x: hidden; */
   }
 
   .players-picblock-pic {
@@ -663,9 +612,7 @@ footer::after {
   }
 
   .text-bigger {
-    /* padding-top: 0px; */
     font-size: 24px;
-    font-family: 'Open Sans';
     font-weight: normal;
   }
 
@@ -730,7 +677,7 @@ footer {
     height: auto;
     margin-top: 10px;
   }
-  
+
   .slogan-container {
     margin-top: 280px;
     width: 90%;
@@ -817,19 +764,16 @@ footer {
   .section-article-number {
     margin-left: 52%;
     padding-top: 9px;
-    /* transform: translateY(8px); */
   }
 
   .section-article-number-white {
     margin-left: 52%;
     padding-top: 9px;
-    /* transform: translateY(8px); */
   }
 
   .section-article-number-purple {
     margin-left: 52%;
     padding-top: 9px;
-    /* transform: translateY(8px); */
   }
 
   .section-article-name {
@@ -868,13 +812,10 @@ footer {
 
   .players-picblock-pic {
     position: absolute;
-    /* top: -190px;
-     left: 650px; */
     top: -190px;
     left: -150px;
     background-image: url('../images/basketballer_991.png');
     background-repeat: no-repeat;
-    /* background-size: contain; */
     height: 815px;
     width: 991px;
   }
@@ -897,10 +838,6 @@ footer {
   .flexblock-reverse {
     flex-direction: row-reverse;
   }
-
-  /* .flex-reverse {
-    flex-direction: row-reverse;
-  } */
 
   .picture-left {
     display: block;
@@ -964,7 +901,6 @@ footer {
     margin-top: 0;
     text-align: left;
     padding-bottom: 25px;
-    /* transform: translateY(-10px); */
   }
 
   .show-everyone {
