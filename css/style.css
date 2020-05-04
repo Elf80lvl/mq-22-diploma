@@ -138,8 +138,6 @@ header::after {
   font-weight: 700;
 }
 
-/*--------------------------section-athlets-----------------------------*/
-
 .athlets-picblock {
   height: 235px;
   width: 100%;
@@ -332,8 +330,6 @@ header::after {
   padding-bottom: 65px;
 }
 
-/*-------------footer---------------*/
-
 footer {
   position: relative;
   color: white;
@@ -409,8 +405,6 @@ footer::after {
 }
 
 
-/*------------------------641----------------------------------*/
-
 @media (min-width: 641px) {
   header {
     background-image: url('../images/football_1280.jpg');
@@ -480,8 +474,6 @@ footer::after {
     font-size: 14px;
   }
 
-
-  /*--------------------------section-athlets 641-----------------------------*/
   .section-article {
     margin-left: 0;
   }
@@ -561,8 +553,6 @@ footer::after {
     width: 497px;
   }
 
-
-  /*-----------------players 641----------------*/
   .players {
     overflow-x: hidden;
     position: relative;
@@ -598,8 +588,6 @@ footer::after {
     font-size: 18px;
   }
 
-
-  /*-------------------be active 641---------------------*/
   .section-h3 {
     margin-top: 60px;
     margin-left: -5px;
@@ -651,9 +639,6 @@ footer::after {
     margin-top: 55px;
   }
 
-
-/*---------------------footer 641--------------*/
-
 footer {
   background-image: url('../images/game_1280.jpg');
 }
@@ -664,7 +649,6 @@ footer {
 
 }
 
-/*------------------------961----------------------------*/
 
 @media (min-width: 961px) {
   header {
@@ -727,8 +711,6 @@ footer {
     font-size: 14px;
   }
 
-
-  /*--------------------------section-athlets 961-----------------------------*/
   .section-block {
     padding-top: 60px;
     padding-bottom: 60px;
@@ -789,8 +771,6 @@ footer {
     padding-right: 15%;
   }
 
-
-  /*-----------------players 961----------------*/
   .h2-players {
     margin-left: 9.8%;
   }
@@ -828,8 +808,6 @@ footer {
     padding-bottom: 60px;
   }
 
-
-  /*-------------------------be active 961--------------------------*/
   .flexblock {
     display: flex;
     align-items: stretch;
@@ -877,7 +855,6 @@ footer {
     padding: 0;
   }
 
-  /*-------------------------footer 961--------------------------*/
   footer {
     background-image: url('../images/game_1920.jpg');
   }
