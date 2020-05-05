@@ -553,11 +553,6 @@ footer::after {
     width: 497px;
   }
 
-  .players {
-    overflow-x: hidden;
-    position: relative;
-  }
-
   .players-m {
     margin-left: 30px;
   }
@@ -566,15 +561,14 @@ footer::after {
     padding-right: 310px;
   }
 
-  .players-picblock {
-    height: 0px;
-    width: 100%;
+  .players {
+    overflow: hidden;
     position: relative;
   }
 
   .players-picblock-pic {
     position: absolute;
-    top: -130px;
+    top: 35px;
     right: 0;
     background-image: url('../images/basketballer_436.png');
     background-repeat: no-repeat;
@@ -783,21 +777,21 @@ footer {
     padding-right: 45%;
   }
 
-  .players-picblock {
-    margin-left: 50%;
-    height: 0px;
-    width: 1px;
+  .players {
     position: relative;
+    overflow: hidden;
+    z-index: 0;
   }
 
   .players-picblock-pic {
     position: absolute;
-    top: -190px;
-    left: -150px;
+    top: 30px;
+    left: 35%;
     background-image: url('../images/basketballer_991.png');
     background-repeat: no-repeat;
     height: 815px;
     width: 991px;
+    z-index: 2;
   }
 
   .collaboration-players {
